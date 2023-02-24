@@ -1,8 +1,16 @@
 .circle {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   background-color: #1d3247;
+}
+
+.wall {
+  background-color: #000;
+}
+
+.final {
+  background-color: #ff0000;
 }
 
 .firstbox {
@@ -35,7 +43,7 @@
   background-color: #ffffff;
   box-shadow: #000000 0 2px 20px 0;
   width: 800px;
-  height: 500px;
+  height: 500px; 
   margin: 0 auto;
   display: table-cell;
   grid-gap: 1px;
